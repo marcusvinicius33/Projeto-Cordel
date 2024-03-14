@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+html, body {
+    min-height: 100vh; /*tamanha mínimo da altura.*/
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    /*text-transform: uppercase. É uma forma de deixar todo o texto com letra maiuscula.*/
+    font-variant: small-caps; /*É outra forma de deixar todo o texto com letras maiusculas.*/
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none; /*tira o sublinhado do link*/
+    font-weight: bolder; /*deixa o link em negrito*/
+}
+
+a:hover {
+    text-decoration: underline; /*deixa o link sublinhado ao passar o mouse.*/
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em; /*aumenta o espaçamento entre as linhas.*/
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(71, 69, 69);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.254);
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
